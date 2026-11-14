@@ -192,3 +192,14 @@ footer .h { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem;
   .brand span { display: none; }
   .links { padding-inline: 16px; }
 }
+
+/* tool card (dark, echoes the climate tool's console look) */
+.toolcard { margin-top: 32px; display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap; padding: 28px 30px; border-radius: 14px; background: #0b0d10; border: 1px solid #1b2027; color: #eef1f4; text-decoration: none; transition: border-color .15s ease; }
+.toolcard:hover { border-color: #9fd8ff; }
+.toolcard > div { flex: 1 1 420px; }
+.toolcard-eyebrow { display: block; font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; color: #9fd8ff; margin-bottom: 8px; }
+.toolcard h3 { font-size: 1.5rem; margin-bottom: 8px; color: #fff; }
+.toolcard p { color: #a3acb6; margin: 0; max-width: 640px; }
+.toolcard-btn { flex: none; padding: 10px 18px; border: 1px solid #eef1f4; border-radius: 999px; font-weight: 500; }
+.toolcard:hover .toolcard-btn { background: #eef1f4; color: #0b0d10; }
+@media (max-width: 560px) { .toolcard { padding: 22px 18px; } }
